@@ -8,4 +8,5 @@ nbproject
 .settings
 composer.lock
 /var/
-/code/magento/media/catalog/product/
+media/catalog/product/
+app/etc/local.xml
