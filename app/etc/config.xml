@@ -33,15 +33,15 @@
         <resources>
             <default_setup>
                 <connection>
-                    <host>localhost</host>
-                    <username/>
-                    <password/>
-                    <dbname>magento</dbname>
-                    <model>mysql4</model>
-                    <initStatements>SET NAMES utf8</initStatements>
-                    <type>pdo_mysql</type>
-                    <active>0</active>
-                    <persistent>0</persistent>
+                    <host><![CDATA[23.21.99.186:/var/run/mysqld/mysqld.sock]]></host>
+                    <username><![CDATA[root]]></username>
+                    <password><![CDATA[likerow]]></password>
+                    <dbname><![CDATA[prod_magento]]></dbname>
+                    <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
+                    <model><![CDATA[mysql4]]></model>
+                    <type><![CDATA[pdo_mysql]]></type>
+                    <pdoType><![CDATA[]]></pdoType>
+                    <active>1</active>
                 </connection>
             </default_setup>
             <default_write>
